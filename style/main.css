@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Yeseva+One&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Yeseva -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: #EBF2F2;
+}
+header{
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 20px 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titul{
+    color: #D9763D;
+    font-size:50px;
+    padding-top: 100px;
+    padding-left: 40%;
+    font-family: 'Yeseva One', cursive;
+}
+
+.parraf{
+    padding: 10px 30%;
+    text-align: center;
+}
+
+#auto{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+
+.columna{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.subtitul{
+width: 720px;
+height: 448px;
+left: 0px;
+top: 988px;
+margin-top: 5%;
+background: #F29580;
+color:black;
+
+}
+
+.subtitul p{
+    text-align: center;
+    padding-top: 30%;
+    font-size: 35px;
+    font-family: 'Yeseva One', cursive;
+}
+
+
+.imatge{
+    width: 720px;
+height: 448px;
+left: 720px;
+top: 988px;
+margin-top: 5%;
+background: rgba(222, 242, 148, 0.62);
+object-fit: fill;
+
+}
+
+.imatge img{
+    width: 720px;
+    height: 448px;
+}
+
+.columna a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 1024px) {
+    .columna{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+@media (max-width: 834px) {
+    .columna{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+@media (max-width: 438px) {
+    .columna{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
